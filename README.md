@@ -116,8 +116,8 @@ target_link_libraries(
 <div >
     <img src="https://github.com/pengMaster/picApplyGit/blob/master/NDKJNIDemo/微信图片_20181115172932.png"   alt=""/>
 </div>
-```java
 
+```java
 /**
  * <pre>
  *     author : Wp
@@ -137,12 +137,12 @@ public class JNIUtils {
     public static native String printStringByJni();
 }
 
-
 ```
 
 #### 2.打开Android studio 最下面的命令工具Terminal
 
 ##### 1.进入java目录下，默认为项目根目录
+
 ```
 cd app/src/main/java
 ```
