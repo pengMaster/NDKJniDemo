@@ -113,7 +113,9 @@ target_link_libraries(
 ### 执行装逼三部曲
 
 #### 1.新建要编译成.h文件的java文件
-
+<div >
+    <img src="https://github.com/pengMaster/picApplyGit/blob/master/NDKJNIDemo/微信图片_20181115172932.png"   alt=""/>
+</div>
 ```java
 
 /**
@@ -197,9 +199,10 @@ JNIEXPORT jstring JNICALL Java_king_bird_ndkjnidemo_JNIUtils_printStringByJni
 <div >
     <img src="https://github.com/pengMaster/picApplyGit/blob/master/NDKJNIDemo/微信图片_20181115170953.png"   alt=""/>
 </div>
-##### JNIControl.cpp文件内容：
-```java
 
+##### JNIControl.cpp文件内容：
+
+```java
 #include "king_bird_ndkjnidemo_JNIUtils.h"
 //king_bird_ndkjnidemo_JNIUtils_printStringByJni 包名+文件名+文件内方法名
 JNIEXPORT jstring JNICALL Java_king_bird_ndkjnidemo_JNIUtils_printStringByJni
@@ -207,9 +210,6 @@ JNIEXPORT jstring JNICALL Java_king_bird_ndkjnidemo_JNIUtils_printStringByJni
     //字符串返回
 return env->NewStringUTF("没想到吧！我竟然会JNI了！！！");
 }
-
-
-
 ```
 
 ### 到这里已经大功告成了
@@ -284,6 +284,12 @@ class MainActivity : AppCompatActivity() {
 2. 新建 Feat_xxx 分支
 3. 提交代码
 4. 新建 Pull Request
+
+#### 个人说明
+
+ - 编译报错或有什么问题call me
+ - QQ群：830556582
+ - QQ：1101313414
 
 
 ### github地址
